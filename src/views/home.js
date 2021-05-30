@@ -58,7 +58,7 @@ const Home = () => {
               coin_name="Ethereum"
               image_src="https://images.unsplash.com/photo-1621501103258-3e135c8c1fda?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
             ></CoinStats>
-            <CoinStats></CoinStats>
+            <CoinStats image_src="https://images.unsplash.com/photo-1617004890839-25d5d8a9730d?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"></CoinStats>
           </div>
         </div>
       </div>
