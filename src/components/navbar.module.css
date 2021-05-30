@@ -1,0 +1,61 @@
+.navbar {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: var(--dl-color-gray-black);
+}
+.logo {
+  top: 0px;
+  left: 16px;
+  right: auto;
+  display: flex;
+  flex-direction: row;
+}
+.logoimage {
+  width: 32px;
+  height: 32px;
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.logotext {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.menulist {
+  top: auto;
+  left: 0px;
+  right: 0px;
+  width: 270px;
+  bottom: 22px;
+  margin: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.textc {
+  color: var(--dl-color-gray-white);
+}
+.textn {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.textg {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.account {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}

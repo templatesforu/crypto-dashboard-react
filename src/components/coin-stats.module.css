@@ -1,0 +1,68 @@
+.container {
+  width: 213px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 16px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-400);
+}
+.image {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.card-body {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+}
+.coin {
+  color: var(--dl-color-gray-600);
+}
+.price {
+  color: var(--dl-color-gray-white);
+}
+.stats {
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  background-color: var(--dl-color-danger-700);
+}
+.icon {
+  top: auto;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  width: 16px;
+  bottom: 11px;
+  height: 16px;
+  margin: auto;
+  align-self: center;
+}
+.text {
+  color: var(--dl-color-gray-white);
+  z-index: 100;
+  font-size: 12px;
+  align-self: center;
+  font-family: Roboto;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-danger-700);
+}
